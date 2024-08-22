@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <head>
+  <style>
+    .bggrid {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, #eef2ff 1px,
+            transparent 1px), linear-gradient(to bottom, #eef2ff 1px, 
+            transparent 1px);
+        }
+        * {
+            font-family: 'Mono',
+            sans-serif;
+            font-weight: 300;
+        }
+    </style>
 </head>
 
 <body>
+  <div class="bggrid absolute inset-0 z-[-1] opacity-70"></div>
   <header>
     <h1>Hello!</h1>
   </header>
